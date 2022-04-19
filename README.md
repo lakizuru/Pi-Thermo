@@ -5,6 +5,9 @@ This repository contains the python code for a digital thermometer made using Ad
 
 DHT11 python library was taken from https://github.com/binaryupdates/dht11-raspberrypi.git
 
+## How It Works
+Raspberry Pi captures the data come from the DHT11 sensor and read the measurements. Then it checks whether the measurement is valid. If its valid, then it rotates the servo motor according to the specified angle (which was given my duty cycle). If not, the measurement is ignored.
+
 ## Prerequisites
 - Raspberry Pi 4B
 - AdaFruit DHT11 Temperature and Humidity Sensor
