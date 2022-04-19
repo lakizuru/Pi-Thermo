@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-import dht11-raspberrypi/dht11
+import dht11
 
 servoPIN = 17
 GPIO.setwarnings(False)
